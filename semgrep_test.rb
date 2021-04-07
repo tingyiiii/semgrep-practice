@@ -36,6 +36,10 @@ class ActionPackAssertionsController < ActionController::Base
     session["xmas"] = "turkey"
     # ruleid: avoid-render-text
     render text: "ho ho ho"
+    render text: "ho ho ho"
+    render text: "ho ho ho"
+    render text: "ho ho ho"
+    render text: "ho ho ho"
   end
 
   def raise_exception_on_get
